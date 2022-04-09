@@ -1,0 +1,2 @@
+#	文件名	路径名
+	unit_skill_lmly	Assets/Game/GameResource/DataTable/LuaFile/unit_skill/unit_skill_lmly.lua.txt

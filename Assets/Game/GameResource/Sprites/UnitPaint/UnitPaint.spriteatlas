@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UnitPaint
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 6291e0ff082cccf4582e04b8e5d34086, type: 3}
+    - {fileID: 102900000, guid: 6a128e53cf9939141af9ad23da9b85bd, type: 3}
+    totalSpriteSurfaceArea: 1695254
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b0d1123869935d7498538671e1f4f480, type: 3}
+  - {fileID: 21300000, guid: 45160e38261b20545bc81af1f8ab9405, type: 3}
+  - {fileID: 21300000, guid: 9a020de8633652c4ca42b1c94aa81980, type: 3}
+  - {fileID: 21300000, guid: dd20e61a60a25f5499027d061edb1bff, type: 3}
+  - {fileID: 21300000, guid: 2851a3ea0aeb1ca43b6c8fa0b3c867e0, type: 3}
+  - {fileID: 21300000, guid: 92e3495b6f3e2ea4699f0535d4a8a31b, type: 3}
+  - {fileID: 21300000, guid: d31d8b7baf1b89d48a094f4553a1a96c, type: 3}
+  - {fileID: 21300000, guid: 8a2ed1bc9aca04b48922868b78fab8f1, type: 3}
+  - {fileID: 21300000, guid: 42ce093e1ea5f4b46bf53c4fa625c2c3, type: 3}
+  - {fileID: 21300000, guid: ca1df1fe4f5e709419afe07b2e54076f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - "\u8840\u6D74\u8718\u86DB\u9886\u4E3B_\u6218\u6597\u5F62\u8C61_\u5730\u56FE\u5F62\u8C61"
+  - "\u857E\u54AA\u5934\u50CF"
+  - "\u9992\u5934\u5361_\u5730\u56FE\u5934\u50CF"
+  - "\u9992\u5934\u5361\u7ACB\u7ED8"
+  - "\u9992\u5934\u5361\u5934\u50CF"
+  - "\u8718\u86DB\u62A4\u536B_\u6218\u6597\u5F62\u8C61_\u5730\u56FE\u5F62\u8C61"
+  - "\u6797\u6D77_\u6218\u6597\u5F62\u8C61_\u5730\u56FE\u5F62\u8C61"
+  - 6762_1580777
+  - "\u6797\u6155\u9752_\u6218\u6597\u5F62\u8C61_\u5730\u56FE\u5F62\u8C61"
+  - "\u9E21\u5FB7"
+  m_Tag: UnitPaint
+  m_IsVariant: 0

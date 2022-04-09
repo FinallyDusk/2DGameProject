@@ -1,0 +1,2960 @@
+fileFormatVersion: 2
+guid: a1b6b8f5c86b2ae4399d91abc7a635f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5395580828922041750
+    second: buff_atlas_0
+  - first:
+      213: -2550642320883149953
+    second: buff_atlas_1
+  - first:
+      213: -2112155878156472454
+    second: buff_atlas_2
+  - first:
+      213: 7519367373499078004
+    second: buff_atlas_3
+  - first:
+      213: -6637999970505027130
+    second: buff_atlas_4
+  - first:
+      213: -9053631713275321075
+    second: buff_atlas_5
+  - first:
+      213: -3455267553820350866
+    second: buff_atlas_6
+  - first:
+      213: 7304681711490328695
+    second: buff_atlas_7
+  - first:
+      213: 4487381393079575623
+    second: buff_atlas_8
+  - first:
+      213: -7986093319821419645
+    second: buff_atlas_9
+  - first:
+      213: 7481718761815845296
+    second: buff_atlas_10
+  - first:
+      213: -8784386145483343418
+    second: buff_atlas_11
+  - first:
+      213: 7167686857310041844
+    second: buff_atlas_12
+  - first:
+      213: 4806900697274888933
+    second: buff_atlas_13
+  - first:
+      213: 6839110688438021761
+    second: buff_atlas_14
+  - first:
+      213: -8870302860145022026
+    second: buff_atlas_15
+  - first:
+      213: -5138911749007884893
+    second: buff_atlas_16
+  - first:
+      213: 915654584042149640
+    second: buff_atlas_17
+  - first:
+      213: 3440079053232859015
+    second: buff_atlas_18
+  - first:
+      213: -8884663746863021329
+    second: buff_atlas_19
+  - first:
+      213: -4631155271779837488
+    second: buff_atlas_20
+  - first:
+      213: 4067190400534210628
+    second: buff_atlas_21
+  - first:
+      213: -6706867915216347593
+    second: buff_atlas_22
+  - first:
+      213: -8008343202941402145
+    second: buff_atlas_23
+  - first:
+      213: -5497759879677657198
+    second: buff_atlas_24
+  - first:
+      213: 1215386999701022341
+    second: buff_atlas_25
+  - first:
+      213: 3371505294897309741
+    second: buff_atlas_26
+  - first:
+      213: -2493828370512958090
+    second: buff_atlas_27
+  - first:
+      213: -5820614446470519303
+    second: buff_atlas_28
+  - first:
+      213: -8277026788452958621
+    second: buff_atlas_29
+  - first:
+      213: -5674332214545993312
+    second: buff_atlas_30
+  - first:
+      213: -2471720994603288857
+    second: buff_atlas_31
+  - first:
+      213: 1500098434729793283
+    second: buff_atlas_32
+  - first:
+      213: 5211889374106363291
+    second: buff_atlas_33
+  - first:
+      213: 374710276545196853
+    second: buff_atlas_34
+  - first:
+      213: 2263811730846677025
+    second: buff_atlas_35
+  - first:
+      213: 4877596955253146177
+    second: buff_atlas_36
+  - first:
+      213: -30278173199933242
+    second: buff_atlas_37
+  - first:
+      213: -1169968826461036364
+    second: buff_atlas_38
+  - first:
+      213: 7265852954212327678
+    second: buff_atlas_39
+  - first:
+      213: -6978865742660597528
+    second: buff_atlas_40
+  - first:
+      213: 1647037657426106394
+    second: buff_atlas_41
+  - first:
+      213: 2206972292464845463
+    second: buff_atlas_42
+  - first:
+      213: -3421582577027137672
+    second: buff_atlas_43
+  - first:
+      213: -3329780754197263948
+    second: buff_atlas_44
+  - first:
+      213: -3834858609383144634
+    second: buff_atlas_45
+  - first:
+      213: 8671451134180996851
+    second: buff_atlas_46
+  - first:
+      213: -1765113879243312681
+    second: buff_atlas_47
+  - first:
+      213: 8983304212048847875
+    second: buff_atlas_48
+  - first:
+      213: 3050138198644928196
+    second: buff_atlas_49
+  - first:
+      213: 8594590280986965554
+    second: buff_atlas_50
+  - first:
+      213: -2825479806020400883
+    second: buff_atlas_51
+  - first:
+      213: 112283653401305259
+    second: buff_atlas_52
+  - first:
+      213: -5008183367913278347
+    second: buff_atlas_53
+  - first:
+      213: -2921107853814929722
+    second: buff_atlas_54
+  - first:
+      213: -8975437875303917628
+    second: buff_atlas_55
+  - first:
+      213: -9127409308224600508
+    second: buff_atlas_56
+  - first:
+      213: -3792015229164092258
+    second: buff_atlas_57
+  - first:
+      213: -512775622085335805
+    second: buff_atlas_58
+  - first:
+      213: 8015423132083210615
+    second: buff_atlas_59
+  - first:
+      213: -1297827472623481425
+    second: buff_atlas_60
+  - first:
+      213: 4690853110394283017
+    second: buff_atlas_61
+  - first:
+      213: 2957189679669206649
+    second: buff_atlas_62
+  - first:
+      213: -3249989985108729462
+    second: buff_atlas_63
+  - first:
+      213: 3737942861329704516
+    second: buff_atlas_64
+  - first:
+      213: 904916757364094889
+    second: buff_atlas_65
+  - first:
+      213: 4187406727849089217
+    second: buff_atlas_66
+  - first:
+      213: -3481566779693812081
+    second: buff_atlas_67
+  - first:
+      213: -5710911022226577165
+    second: buff_atlas_68
+  - first:
+      213: 923954250564699802
+    second: buff_atlas_69
+  - first:
+      213: -5434156220182706124
+    second: buff_atlas_70
+  - first:
+      213: 7475715739587101536
+    second: buff_atlas_71
+  - first:
+      213: -950445595947790097
+    second: buff_atlas_72
+  - first:
+      213: 7316957154110451559
+    second: buff_atlas_73
+  - first:
+      213: -7164488507465071924
+    second: buff_atlas_74
+  - first:
+      213: -6420010126805674690
+    second: buff_atlas_75
+  - first:
+      213: -6221236906494139556
+    second: buff_atlas_76
+  - first:
+      213: 6811485485681275097
+    second: buff_atlas_77
+  - first:
+      213: -8903892604333380969
+    second: buff_atlas_78
+  - first:
+      213: -5529621052449555203
+    second: buff_atlas_79
+  - first:
+      213: -3056153537706070696
+    second: buff_atlas_80
+  - first:
+      213: -8499210936220455870
+    second: buff_atlas_81
+  - first:
+      213: -6068799173683054601
+    second: buff_atlas_82
+  - first:
+      213: 6028990104836595309
+    second: buff_atlas_83
+  - first:
+      213: -4458840294403165835
+    second: buff_atlas_84
+  - first:
+      213: 6130392979070022822
+    second: buff_atlas_85
+  - first:
+      213: 7143197222855982339
+    second: buff_atlas_86
+  - first:
+      213: 3201493044055138632
+    second: buff_atlas_87
+  - first:
+      213: 985406273582802041
+    second: buff_atlas_88
+  - first:
+      213: -1810356678044801928
+    second: buff_atlas_89
+  - first:
+      213: 1925508533719877734
+    second: buff_atlas_90
+  - first:
+      213: 7319926018603424552
+    second: buff_atlas_91
+  - first:
+      213: -5985852921361585904
+    second: buff_atlas_92
+  - first:
+      213: -3323139364227459803
+    second: buff_atlas_93
+  - first:
+      213: 3380248413025447082
+    second: buff_atlas_94
+  - first:
+      213: 438319787306529916
+    second: buff_atlas_95
+  - first:
+      213: -4337217578388477904
+    second: buff_atlas_96
+  - first:
+      213: -1926465096528469691
+    second: buff_atlas_97
+  - first:
+      213: 3415991612649208374
+    second: buff_atlas_98
+  - first:
+      213: 4100269923968512732
+    second: buff_atlas_99
+  - first:
+      213: -4159612945139171513
+    second: buff_atlas_100
+  - first:
+      213: -448868663043949975
+    second: buff_atlas_101
+  - first:
+      213: 5920428140925740488
+    second: buff_atlas_102
+  - first:
+      213: -2862047096853734425
+    second: buff_atlas_103
+  - first:
+      213: 3955372464682058155
+    second: buff_atlas_104
+  - first:
+      213: 6126906350183144168
+    second: buff_atlas_105
+  - first:
+      213: 6341103444045914941
+    second: buff_atlas_106
+  - first:
+      213: 8501789237034386671
+    second: buff_atlas_107
+  - first:
+      213: 8456015566370612782
+    second: buff_atlas_108
+  - first:
+      213: -5299579826660348043
+    second: buff_atlas_109
+  - first:
+      213: 9127250045448366183
+    second: buff_atlas_110
+  - first:
+      213: -3522568186227962641
+    second: buff_atlas_111
+  - first:
+      213: -7304598895209261903
+    second: buff_atlas_112
+  - first:
+      213: -2822438151882065192
+    second: buff_atlas_113
+  - first:
+      213: -2344165270497936618
+    second: buff_atlas_114
+  - first:
+      213: 2183725778491247629
+    second: buff_atlas_115
+  - first:
+      213: 5225228316249799658
+    second: buff_atlas_116
+  - first:
+      213: 7737114809905443901
+    second: buff_atlas_117
+  - first:
+      213: -5947708360754741360
+    second: buff_atlas_118
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buff_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 888
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aa137b2db0f15b0800000000000000
+      internalID: -5395580828922041750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 888
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f739ea2b25c4a9cd0800000000000000
+      internalID: -2550642320883149953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 888
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fea346b6d10b2e0800000000000000
+      internalID: -2112155878156472454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 888
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475131179c82a5860800000000000000
+      internalID: 7519367373499078004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 888
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c19efa423611e3a0800000000000000
+      internalID: -6637999970505027130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 888
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05630bcce90b5280800000000000000
+      internalID: -9053631713275321075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 814
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66ea92777c6c00d0800000000000000
+      internalID: -3455267553820350866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 814
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7786ca290517f5560800000000000000
+      internalID: 7304681711490328695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 814
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744a4321a91664e30800000000000000
+      internalID: 4487381393079575623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 814
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b9ce01072bb2190800000000000000
+      internalID: -7986093319821419645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 814
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9a863f29764d760800000000000000
+      internalID: 7481718761815845296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 814
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c93a94a757971680800000000000000
+      internalID: -8784386145483343418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 740
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6733f783db87360800000000000000
+      internalID: 7167686857310041844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 740
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2b5a357ba85b240800000000000000
+      internalID: 4806900697274888933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 740
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18eeceb9fe669ee50800000000000000
+      internalID: 6839110688438021761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 740
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbaceaab8a56e480800000000000000
+      internalID: -8870302860145022026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 740
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adbd4ccdfaeea8b0800000000000000
+      internalID: -5138911749007884893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 740
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8075aca2efe05bc00800000000000000
+      internalID: 915654584042149640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 666
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787e43f2cad9dbf20800000000000000
+      internalID: 3440079053232859015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 666
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2407b256553b480800000000000000
+      internalID: -8884663746863021329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 666
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d992e531d4dabfb0800000000000000
+      internalID: -4631155271779837488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 666
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44868b1de10917830800000000000000
+      internalID: 4067190400534210628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 666
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e90166a2b6ce2a0800000000000000
+      internalID: -6706867915216347593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 666
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd383457946acd090800000000000000
+      internalID: -8008343202941402145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 592
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f3b6f848804b3b0800000000000000
+      internalID: -5497759879677657198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 592
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586aecd690cedd010800000000000000
+      internalID: 1215386999701022341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 592
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28e3b4e33ef9ce20800000000000000
+      internalID: 3371505294897309741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 592
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67da8c45f44246dd0800000000000000
+      internalID: -2493828370512958090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 592
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f52e97fff5093fa0800000000000000
+      internalID: -5820614446470519303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 592
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e7edd4df7122d80800000000000000
+      internalID: -8277026788452958621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 518
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a13e6e2ae8b041b0800000000000000
+      internalID: -5674332214545993312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_31
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 518
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6bbc4e9dea2bdd0800000000000000
+      internalID: -2471720994603288857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_32
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 518
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307503a149b61d410800000000000000
+      internalID: 1500098434729793283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_33
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 518
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b952e30a5c9545840800000000000000
+      internalID: 5211889374106363291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_34
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 518
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5333a2fd20d333500800000000000000
+      internalID: 374710276545196853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_35
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 518
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1287a7766ccaa6f10800000000000000
+      internalID: 2263811730846677025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14204639694b0b340800000000000000
+      internalID: 4877596955253146177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_37
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 444
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c068f1792e649ff0800000000000000
+      internalID: -30278173199933242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 444
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b062841d8f63cfe0800000000000000
+      internalID: -1169968826461036364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 444
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef06c0604ce75d460800000000000000
+      internalID: 7265852954212327678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 444
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e882992596162f90800000000000000
+      internalID: -6978865742660597528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_41
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 444
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a181396e5047bd610800000000000000
+      internalID: 1647037657426106394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7922f716b9db0ae10800000000000000
+      internalID: 2206972292464845463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_43
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 370
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fb1a646c81480d0800000000000000
+      internalID: -3421582577027137672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_44
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 370
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9c326cb0e3ac1d0800000000000000
+      internalID: -3329780754197263948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_45
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 370
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6438ed7a968d7cac0800000000000000
+      internalID: -3834858609383144634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_46
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 370
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6340cfcde275870800000000000000
+      internalID: 8671451134180996851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_47
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 370
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1379f574e0187e0800000000000000
+      internalID: -1765113879243312681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_48
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 370
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3042174d59b1bac70800000000000000
+      internalID: 8983304212048847875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_49
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 370
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cea4160884445a20800000000000000
+      internalID: 3050138198644928196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_50
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 370
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236b040135e164770800000000000000
+      internalID: 8594590280986965554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_51
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 370
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d094d122611e9c8d0800000000000000
+      internalID: -2825479806020400883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_52
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 370
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0611b4369ee8100800000000000000
+      internalID: 112283653401305259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_53
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 370
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5747289e2cb5f7ab0800000000000000
+      internalID: -5008183367913278347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6e1c632e32677d0800000000000000
+      internalID: -2921107853814929722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_55
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 296
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c75cea6ec6d07380800000000000000
+      internalID: -8975437875303917628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_56
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 296
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446cdafd79de45180800000000000000
+      internalID: -9127409308224600508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_57
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 296
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e948dc27d3e006bc0800000000000000
+      internalID: -3792015229164092258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_58
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 296
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305af1cd94142e8f0800000000000000
+      internalID: -512775622085335805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_59
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 296
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779c4400fd08c3f60800000000000000
+      internalID: 8015423132083210615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_60
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 296
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadc8823ac03dfde0800000000000000
+      internalID: -1297827472623481425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_61
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 296
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904669afc02491140800000000000000
+      internalID: 4690853110394283017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_62
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 296
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e5226885c0a0920800000000000000
+      internalID: 2957189679669206649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_63
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 296
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a816406e357b5e2d0800000000000000
+      internalID: -3249989985108729462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_64
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 296
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446a3485a37dfd330800000000000000
+      internalID: 3737942861329704516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_65
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 296
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a73cf11ff8ee8c00800000000000000
+      internalID: 904916757364094889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_66
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 296
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8968fab38ac1a30800000000000000
+      internalID: 4187406727849089217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86bc82c57dfeafc0800000000000000
+      internalID: -3481566779693812081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_68
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 222
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f86258dea4ceb0b0800000000000000
+      internalID: -5710911022226577165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_69
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 222
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a960f9dde7b82dc00800000000000000
+      internalID: 923954250564699802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_70
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 222
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438c70a85bff594b0800000000000000
+      internalID: -5434156220182706124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_71
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 222
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063c2eb6bd31fb760800000000000000
+      internalID: 7475715739587101536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_72
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 222
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0923324c65fc2f0800000000000000
+      internalID: -950445595947790097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_73
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 222
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fa187c3cd0b8560800000000000000
+      internalID: 7316957154110451559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_74
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 222
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc20d2b59af929c90800000000000000
+      internalID: -7164488507465071924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_75
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 222
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e355659edca87e6a0800000000000000
+      internalID: -6420010126805674690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_76
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 222
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53eddcbef9b9a9a0800000000000000
+      internalID: -6221236906494139556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_77
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 222
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0f2ced5f1478e50800000000000000
+      internalID: 6811485485681275097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_78
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 222
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a2b78e9d40f6480800000000000000
+      internalID: -8903892604333380969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_79
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 222
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcf83233f6d243b0800000000000000
+      internalID: -5529621052449555203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85de9f5bc8c5695d0800000000000000
+      internalID: -3056153537706070696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_81
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 148
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ce67b2facbc0a80800000000000000
+      internalID: -8499210936220455870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_82
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 148
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7ff6f2e4b47cba0800000000000000
+      internalID: -6068799173683054601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_83
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 148
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e5121be864ba350800000000000000
+      internalID: 6028990104836595309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_84
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 148
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571b6ed40640f12c0800000000000000
+      internalID: -4458840294403165835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_85
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 148
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4740b2fe7831550800000000000000
+      internalID: 6130392979070022822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_86
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 148
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d33e4270cb12360800000000000000
+      internalID: 7143197222855982339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_87
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 148
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8416ac916fcfd6c20800000000000000
+      internalID: 3201493044055138632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_88
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 148
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9742850f8cddcad00800000000000000
+      internalID: 985406273582802041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_89
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 148
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8742268613250e6e0800000000000000
+      internalID: -1810356678044801928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_90
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 148
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6684b544fc7c8ba10800000000000000
+      internalID: 1925508533719877734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_91
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 148
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b1ff86ee9959560800000000000000
+      internalID: 7319926018603424552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_92
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 148
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01922808b7afdeca0800000000000000
+      internalID: -5985852921361585904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525da10ea56d1e1d0800000000000000
+      internalID: -3323139364227459803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_94
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 74
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaca5f6b50e09ee20800000000000000
+      internalID: 3380248413025447082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_95
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 74
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c743e643689351600800000000000000
+      internalID: 438319787306529916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_96
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 74
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038239e879b1fc3c0800000000000000
+      internalID: -4337217578388477904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_97
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 74
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5416b399332d345e0800000000000000
+      internalID: -1926465096528469691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_98
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 74
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a7ba3e54a086f20800000000000000
+      internalID: 3415991612649208374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_99
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 74
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd27c5d85c517e830800000000000000
+      internalID: 4100269923968512732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_100
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 74
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ffcd1a0161646c0800000000000000
+      internalID: -4159612945139171513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_101
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 74
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96af574445c45c9f0800000000000000
+      internalID: -448868663043949975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_102
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 74
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5ea12c606992250800000000000000
+      internalID: 5920428140925740488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_103
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 74
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb58954457f748d0800000000000000
+      internalID: -2862047096853734425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_104
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 74
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba14cb7dc4e44e630800000000000000
+      internalID: 3955372464682058155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_105
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 74
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea50ce1dd4270550800000000000000
+      internalID: 6126906350183144168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33ec5a5cff100850800000000000000
+      internalID: 6341103444045914941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_107
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe48ca4444c6cf570800000000000000
+      internalID: 8501789237034386671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_108
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26a1b01b5dc95570800000000000000
+      internalID: 8456015566370612782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_109
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f651dd93c1476b0800000000000000
+      internalID: -5299579826660348043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_110
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7682e1fde818aae70800000000000000
+      internalID: 9127250045448366183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_111
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec4ac2e5e25d1fc0800000000000000
+      internalID: -3522568186227962641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_112
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b45758910ad0aa90800000000000000
+      internalID: -7304598895209261903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_113
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da3f8c647fa4d8d0800000000000000
+      internalID: -2822438151882065192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_114
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bb92d3b1ad77fd0800000000000000
+      internalID: -2344165270497936618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_115
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c85d196072e4e10800000000000000
+      internalID: 2183725778491247629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_116
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebb16c187db38840800000000000000
+      internalID: 5225228316249799658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_117
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34f3d63de0cf5b60800000000000000
+      internalID: 7737114809905443901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_atlas_118
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fb79912ce757da0800000000000000
+      internalID: -5947708360754741360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

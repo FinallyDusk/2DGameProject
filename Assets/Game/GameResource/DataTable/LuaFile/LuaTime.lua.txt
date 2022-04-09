@@ -1,0 +1,54 @@
+_allCoroutine = {}
+_PrepareRemoveCoroutines = {}
+_PrepareAddCoroutines = {}
+
+Util = {
+--此处还有更优的解决办法
+--每次传一个string参数，然后执行
+--在添加协程时肯定要和CombatSystem进行交互，此时将唯一标识名传入，由CombatSystem存入栈A中
+--每次执行的方法为栈A的最上层的参数的方法
+--满足条件之后会移除协程方法（不一定，如果有多次需要暂停执行的地方，则会在执行完之后移除）,此时再将栈A中的最上面参数出栈
+LuaUpdate = function(flag)
+	--查看是否有待移除的协程方法
+	local removeFlag = 0
+	for n,t in pairs(_PrepareRemoveCoroutines) do
+		--print("待删除的方法名 = "..n)
+		_allCoroutine[n] = nil
+		removeFlag = 1
+	end
+	if (removeFlag)
+	then
+		_PrepareRemoveCoroutines = {}
+	end
+	--查看是否有待添加的协程方法
+	local addFlag = 0
+	for n,f in pairs(_PrepareAddCoroutines) do
+		_allCoroutine[n] = f
+		addFlag = 1
+	end
+	if (addFlag)
+	then
+		_PrepareAddCoroutines = {}
+	end
+	
+	--协程循环
+	coroutine.resume(_allCoroutine[flag])
+	--for k,v in pairs(_allCoroutine) do
+	--	print("当前正在执行方法的名字为"..k)
+	--	coroutine.resume(v)
+	--end
+end
+}
+
+local function AddCoroutine(name, fun)
+	_PrepareAddCoroutines[name] = fun
+end
+
+local function RemoveCoroutine(name)
+	_PrepareRemoveCoroutines[name] = 0
+end
+
+return{
+	AddCoroutine = AddCoroutine,
+	RemoveCoroutine = RemoveCoroutine
+}

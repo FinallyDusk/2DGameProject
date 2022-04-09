@@ -1,0 +1,1 @@
+[{"id":101,"Name":"变异老鼠","ScriptFile":"老鼠.txt","MoveSpeed":10.0,"Size":2},{"id":102,"Name":"蛇","ScriptFile":"蛇.txt","MoveSpeed":5.0,"Size":2},{"id":103,"Name":"老虎","ScriptFile":"老虎.txt","MoveSpeed":10.0,"Size":0}]

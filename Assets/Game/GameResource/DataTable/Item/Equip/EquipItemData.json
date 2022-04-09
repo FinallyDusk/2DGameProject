@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1004,
+		"Name": "至尊新手剑",
+		"Des": "这是新手村的神器，像什么哥布林都是秒秒秒的",
+		"IconName": "至尊新手剑",
+		"Sellable": true,
+		"SellPrice": 100,
+		"BuyPrice": 1000,
+		"HeapUp": false,
+		"Rarity": 1005,
+		"LevelLimit": 5,
+		"EquipType": 0,
+		"EquipProp": [
+			{
+				"PropType": 5,
+				"ValueType": 0,
+				"Value": 100
+			},
+			{
+				"PropType": 6,
+				"ValueType": 0,
+				"Value": 100
+			},
+			{
+				"PropType": 5,
+				"ValueType": 1,
+				"Value": 0.4
+			},
+			{
+				"PropType": 6,
+				"ValueType": 1,
+				"Value": 0.4
+			}
+		],
+		"ExtraPropIDs": [ 1001, 1002, 7001, 12001, 13001, 15001, 14001, 15001 ],
+		"ExtraProps": null,
+		"ExtraSkillIDs": null,
+		"ExtraSkills": null
+	},
+	{
+		"id": 1003,
+		"Name": "新手布衣",
+		"Des": "就是新手穿的布衣，没什么防御力，但总比没有好",
+		"IconName": "至尊新手剑",
+		"Sellable": true,
+		"SellPrice": 100,
+		"BuyPrice": 1000,
+		"HeapUp": false,
+		"Rarity": 1001,
+		"LevelLimit": 1,
+		"EquipType": 6,
+		"EquipProp": [
+			{
+				"PropType": 0,
+				"ValueType": 0,
+				"Value": 100
+			}
+		],
+		"ExtraPropIDs": [ 3001 ],
+		"ExtraProps": null,
+		"ExtraSkillIDs": null,
+		"ExtraSkills": null
+	}
+]

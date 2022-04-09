@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CombatActionIcon
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 2
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 8baa2b1a363e31c458440e2b78f48f7f, type: 3}
+    totalSpriteSurfaceArea: 1057285
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d660f6218af81334a8762d749543bc80, type: 3}
+  - {fileID: 21300000, guid: 577f9391cdeee5240810311562160982, type: 3}
+  - {fileID: 21300000, guid: 8e526e32cec93ba46b756dac2909160f, type: 3}
+  - {fileID: 21300000, guid: d32b579464a481f4a826c133c664db46, type: 3}
+  - {fileID: 21300000, guid: 6b2decd9f642d5a4d99238ace0b6ecd8, type: 3}
+  - {fileID: 21300000, guid: ae1253ec195cbb443bb50350b812f1d1, type: 3}
+  - {fileID: 21300000, guid: 3db3cfff28d29fd4a877870db6d66147, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - "\u9E21\u5FB7"
+  - "\u6797\u6155\u9752_\u6218\u6597\u884C\u52A8\u6761\u5F62\u8C61"
+  - "\u8840\u6D74\u8718\u86DB\u9886\u4E3B_\u6218\u6597\u884C\u52A8\u6761\u5F62\u8C61"
+  - "\u8718\u86DB\u62A4\u536B_\u6218\u6597\u884C\u52A8\u6761\u5F62\u8C61"
+  - "\u6797\u6D77_\u6218\u6597\u884C\u52A8\u6761\u5F62\u8C61"
+  - "\u857E\u54AA\u6218\u6597\u5934\u50CF"
+  - "\u9992\u5934\u5361\u6218\u6597\u5934\u50CF"
+  m_Tag: CombatActionIcon
+  m_IsVariant: 0

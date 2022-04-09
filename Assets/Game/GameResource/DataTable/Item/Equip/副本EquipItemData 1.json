@@ -1,0 +1,229 @@
+[
+	{
+		"id": 1001,
+		"Name": "普通木棒",
+		"Des": "随处可见的小木棒，具有一定杀伤力",
+		"IconName": "普通木棒",
+		"Sellable": true,
+		"SellPrice": 10,
+		"BuyPrice": 100,
+		"HeapUp": false,
+		"Rarity": 1001,
+		"LevelLimit": 1,
+		"EquipType": 0,
+		"EquipProp": [
+			{
+				"PropType": 8,
+				"Value": 10
+			}
+		],
+		"ExtraPropIDs": null,
+		"ExtraProps": null,
+		"ExtraSkillIDs": null,
+		"ExtraSkills": null
+	},
+	{
+		"id": 1002,
+		"Name": "铁剑",
+		"Des": "普通的铁剑，用来防身勉强能行。",
+		"IconName": "铁剑",
+		"Sellable": true,
+		"SellPrice": 10,
+		"BuyPrice": 100,
+		"HeapUp": false,
+		"Rarity": 1001,
+		"LevelLimit": 1,
+		"EquipType": 0,
+		"EquipProp": [
+			{
+				"PropType": 8,
+				"Value": 20
+			}
+		],
+		"ExtraPropIDs": null,
+		"ExtraProps": null,
+		"ExtraSkillIDs": null,
+		"ExtraSkills": null
+	},
+	{
+		"id": 1003,
+		"Name": "精良的铁剑",
+		"Des": "打100把铁剑可以出1把精良铁剑，就是这样",
+		"IconName": "精良的铁剑",
+		"Sellable": true,
+		"SellPrice": 20,
+		"BuyPrice": 300,
+		"HeapUp": false,
+		"Rarity": 1002,
+		"LevelLimit": 5,
+		"EquipType": 0,
+		"EquipProp": [
+			{
+				"PropType": 8,
+				"Value": 50
+			}
+		],
+		"ExtraPropIDs": [ 1001, 1002, 12001, 7001],
+		"ExtraProps": null,
+		"ExtraSkillIDs": null,
+		"ExtraSkills": null
+	},
+	{
+		"id": 1004,
+		"Name": "至尊新手剑",
+		"Des": "这是新手村的神器，像什么哥布林都是秒秒秒的",
+		"IconName": "至尊新手剑",
+		"Sellable": true,
+		"SellPrice": 100,
+		"BuyPrice": 1000,
+		"HeapUp": false,
+		"Rarity": 1005,
+		"LevelLimit": 5,
+		"EquipType": 0,
+		"EquipProp": [
+			{
+				"PropType": 8,
+				"Value": 100
+			},
+			{
+				"PropType": 9,
+				"Value": 100
+			},
+			{
+				"PropType": 6,
+				"Value": 0.3
+			}
+		],
+		"ExtraPropIDs": [ 1001, 1002, 7001, 12001, 13001, 15001, 14001, 15001 ],
+		"ExtraProps": null,
+		"ExtraSkillIDs": null,
+		"ExtraSkills": null
+	},
+	{
+		"id": 1005,
+		"Name": "猎人服",
+		"Des": "村子里面猎人使用的护甲，具有不错的防护性",
+		"IconName": "猎人服",
+		"Sellable": true,
+		"SellPrice": 10,
+		"BuyPrice": 100,
+		"HeapUp": false,
+		"Rarity": 1001,
+		"LevelLimit": 1,
+		"EquipType": 6,
+		"EquipProp": [
+			{
+				"PropType": 10,
+				"Value": 5
+			}
+		],
+		"ExtraPropIDs": null,
+		"ExtraProps": null,
+		"ExtraSkillIDs": null,
+		"ExtraSkills": null
+	},
+	{
+		"id": 1006,
+		"Name": "精钢重甲",
+		"Des": "村子的特产，超高的防御力，但是不怎么灵活",
+		"IconName": "精钢重甲",
+		"Sellable": true,
+		"SellPrice": 50,
+		"BuyPrice": 200,
+		"HeapUp": false,
+		"Rarity": 1003,
+		"LevelLimit": 5,
+		"EquipType": 6,
+		"EquipProp": [
+			{
+				"PropType": 10,
+				"Value": 20
+			},
+			{
+				"PropType": 0,
+				"Value": 200
+			}
+		],
+		"ExtraPropIDs": null,
+		"ExtraProps": null,
+		"ExtraSkillIDs": null,
+		"ExtraSkills": null
+	},
+	{
+		"id": 1007,
+		"Name": "蓝珍珠",
+		"Des": "为什么是白色的珍珠啊，这很明显是欺骗好不好",
+		"IconName": "蓝珍珠",
+		"Sellable": true,
+		"SellPrice": 20,
+		"BuyPrice": 75,
+		"HeapUp": false,
+		"Rarity": 1001,
+		"LevelLimit": 1,
+		"EquipType": 9,
+		"EquipProp": [
+			{
+				"PropType": 4,
+				"Value": 5
+			}
+		],
+		"ExtraPropIDs": null,
+		"ExtraProps": null,
+		"ExtraSkillIDs": null,
+		"ExtraSkills": null
+	},
+	{
+		"id": 1008,
+		"Name": "白珍珠",
+		"Des": "你确定这不是蓝珍珠吗。",
+		"IconName": "白珍珠",
+		"Sellable": true,
+		"SellPrice": 10,
+		"BuyPrice": 100,
+		"HeapUp": false,
+		"Rarity": 1001,
+		"LevelLimit": 1,
+		"EquipType": 9,
+		"EquipProp": [
+			{
+				"PropType": 5,
+				"Value": 1
+			}
+		],
+		"ExtraPropIDs": null,
+		"ExtraProps": null,
+		"ExtraSkillIDs": null,
+		"ExtraSkills": null
+	},
+	{
+		"id": 1009,
+		"Name": "新手启程",
+		"Des": "新手上路，请多多关照啊。",
+		"IconName": "新手启程",
+		"Sellable": true,
+		"SellPrice": 10,
+		"BuyPrice": 100,
+		"HeapUp": false,
+		"Rarity": 1005,
+		"LevelLimit": 1,
+		"EquipType": 14,
+		"EquipProp": [
+			{
+				"PropType": 4,
+				"Value": 20
+			},
+			{
+				"PropType": 5,
+				"Value": 10
+			},
+			{
+				"PropType": 0,
+				"Value": 1000
+			}
+		],
+		"ExtraPropIDs": [3001, 4001, 17001, 5001, 6001],
+		"ExtraProps": null,
+		"ExtraSkillIDs": null,
+		"ExtraSkills": null
+	}
+]

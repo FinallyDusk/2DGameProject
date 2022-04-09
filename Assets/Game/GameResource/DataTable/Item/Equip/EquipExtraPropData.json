@@ -1,0 +1,138 @@
+[
+	{
+		"id": 1001,
+		"Des": "物攻",
+		"MinValue": 10.0,
+		"MaxValue": 100.0,
+		"Value": 0.0,
+		"PropType": 5
+	},
+	{
+		"id": 1002,
+		"Des": "物攻",
+		"MinValue": 20.0,
+		"MaxValue": 200.0,
+		"Value": 0.0,
+		"PropType": 5
+	},
+	{
+		"id": 2001,
+		"Des": "魔攻",
+		"MinValue": 10.0,
+		"MaxValue": 100.0,
+		"Value": 0.0,
+		"PropType": 6
+	},
+	{
+		"id": 3001,
+		"Des": "生命值",
+		"MinValue": 10.0,
+		"MaxValue": 100.0,
+		"Value": 0.0,
+		"PropType": 0
+	},
+	{
+		"id": 4001,
+		"Des": "魔法值",
+		"MinValue": 10.0,
+		"MaxValue": 100.0,
+		"Value": 0.0,
+		"PropType": 1
+	},
+	{
+		"id": 5001,
+		"Des": "生命回复",
+		"MinValue": 10.0,
+		"MaxValue": 100.0,
+		"Value": 0.0,
+		"PropType": 2
+	},
+	{
+		"id": 6001,
+		"Des": "魔法回复",
+		"MinValue": 10.0,
+		"MaxValue": 100.0,
+		"Value": 0.0,
+		"PropType": 3
+	},
+	{
+		"id": 7001,
+		"Des": "速度",
+		"MinValue": 10.0,
+		"MaxValue": 100.0,
+		"Value": 0.0,
+		"PropType": 4
+	},
+	{
+		"id": 9001,
+		"Des": "物防",
+		"MinValue": 0.01,
+		"MaxValue": 0.1,
+		"Value": 0.0,
+		"PropType": 10
+	},
+	{
+		"id": 10001,
+		"Des": "魔防",
+		"MinValue": 0.01,
+		"MaxValue": 0.1,
+		"Value": 0.0,
+		"PropType": 11
+	},
+	{
+		"id": 11001,
+		"Des": "伤害减少",
+		"MinValue": 0.01,
+		"MaxValue": 0.1,
+		"Value": 0.0,
+		"PropType": 12
+	},
+	{
+		"id": 12001,
+		"Des": "物伤增加",
+		"MinValue": 0.01,
+		"MaxValue": 0.1,
+		"Value": 0.0,
+		"PropType": 7
+	},
+	{
+		"id": 13001,
+		"Des": "魔伤增加",
+		"MinValue": 0.01,
+		"MaxValue": 0.1,
+		"Value": 0.0,
+		"PropType": 8
+	},
+	{
+		"id": 14001,
+		"Des": "伤害增加",
+		"MinValue": 0.01,
+		"MaxValue": 0.1,
+		"Value": 0.0,
+		"PropType": 9
+	},
+	{
+		"id": 15001,
+		"Des": "暴击率",
+		"MinValue": 0.01,
+		"MaxValue": 0.1,
+		"Value": 0.0,
+		"PropType": 13
+	},
+	{
+		"id": 16001,
+		"Des": "暴击伤害",
+		"MinValue": 0.1,
+		"MaxValue": 1,
+		"Value": 0.0,
+		"PropType": 14
+	},
+	{
+		"id": 17001,
+		"Des": "闪避率",
+		"MinValue": 0.01,
+		"MaxValue": 0.1,
+		"Value": 0.0,
+		"PropType": 15
+	}
+]

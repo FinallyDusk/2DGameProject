@@ -1,0 +1,204 @@
+local bw = CS.BoringWorld
+
+unit_skill_lmly = {
+	initiative_20001 = function(args)
+		--蕾咪神枪主动，对一条直线上的单位造成（150+30*技能等级）%*魔法攻击力的魔法伤害
+		local combat = CS.BoringWorld.GameEntry.Combat
+		--获得特效移动事件以及范围内敌方单位的位置，通过模拟物理运算获取神枪对目标的伤害时间
+		--计算速度和时间
+		local direction = args.SkillCastPoint - args.ActionSource.Position
+		if direction.x > 0 then
+			direction = CS.UnityEngine.Vector3Int(1, 0, 0)
+		else
+			direction = CS.UnityEngine.Vector3Int(-1, 0, 0)
+		end
+		local endPos = combat:GetLineEndPosition(args.ActionSource.Position, direction)
+		local startPos = args.ActionSource.Position
+		local speed = args.LastSkillData.BaseData.SpecialEffect.Speed
+		if speed == 0 then
+			CS.UnityGameFramework.Runtime.Log.Error("速度不应该为0，请检查20001")
+			speed = 1
+		end
+		local offsetPos = endPos - startPos
+		local s = CS.UnityEngine.Mathf.Abs(offsetPos.x)
+		local _allTime =  s / speed
+		local _interval = 1 / speed
+		local _count = _allTime / _interval
+		--播放特效
+		CS.BoringWorld.GameEntry.SpecialEffect:PlaySpecialEffect(args.LastSkillData.BaseData.SpecialEffect.EffectName, speed, startPos, endPos)
+		--构建计时器
+		local _nowCount = 0
+		local _actionSource = args.ActionSource
+		local _skillLv = args.LastSkillData.Lv
+		local item = CS.BoringWorld.CombatSystem.CreateTimer(_count + 1, _interval, function(data)
+			--检测当前位置是否有符合条件的敌人
+			local _nowTime = _nowCount * _interval
+			local t = _nowTime / _allTime
+			local _nowPos = CS.BoringWorld.UnityUtility.V3ILerp(startPos, endPos, t)
+			local _allChooseUnit = combat:GetAllUnitsByCircle(_nowPos, 0)
+			if _allChooseUnit.Count ~= 0 then
+				_allChooseUnit:ForEach(function(_UnitInfo)
+					if _UnitInfo.BaseData.Camp ~= _actionSource.BaseData.Camp then
+						--造成伤害
+						--基础伤害暂定为魔法攻击力*（150% + 30% * 技能等级）
+						local baseHarm = _actionSource.Prop:GetProperty(CS.BoringWorld.UnitPropType.MagicAtk) * (1.5 + 0.3 * _skillLv)
+						--生成的伤害数据
+						local harmData = CS.BoringWorld.Combat.HarmData.Create(_actionSource, _UnitInfo, baseHarm, CS.BoringWorld.HarmType.Magic)
+						harmData.IgnoreDefRate = 0.3
+						harmData:Execute()
+						CS.GameFramework.ReferencePool.Release(harmData)
+					end
+				end)
+			end
+			_nowCount = _nowCount + 1
+		end)
+		--配置计时器
+		--设置结束
+		item:SetEndCallback(args.Callback)
+		item:Start()
+		--CS.GameFramework.ReferencePool.Release(args)
+		--args:Release()
+	end,
+	passivity_20001 = function(args)
+		--获取随机数因子
+		local rate = CS.UnityEngine.Random.Range(0, 100)
+		local content = "命运没有反应呢"
+		if rate < 5 then
+			--5概率恶魔
+			--增加全属性上升buff
+			local buffID = tonumber(args.LastSkillData:TryGetCustomData("_em_buff_id"))
+			args.EffectSource:AddBuff(buffID)
+			content = "恶魔"
+		elseif rate < 15 then
+			--10概率幸运
+			--回复自身30%最大生命值和魔法
+			local prop = args.EffectSource.Prop
+			local hpDelta = 0.3 * prop:GetProperty(bw.UnitPropType.MaxHp)
+			local mpDelta = 0.3 * prop:GetProperty(bw.UnitPropType.MaxMp)
+			args.EffectSource:RestoreHp(hpDelta)
+			args.EffectSource:RestoreMp(mpDelta)
+			content = "幸运"
+		elseif rate < 25 then
+			-- 10概率迷茫
+			--造成伤害时是目标50%闪避
+			local buffID = tonumber(args.LastSkillData:TryGetCustomData("_mimang_buff_id"))
+			args.EffectSource:AddBuff(buffID)
+			content = "迷茫"
+		elseif rate < 55 then
+			--30概率反转
+			--额外造成40%伤害，另一个buff
+			local buffID = tonumber(args.LastSkillData:TryGetCustomData("_fanzhuan_buff_id"))
+			args.EffectSource:AddBuff(buffID)
+			content = "反转"
+		elseif rate < 60 then
+			--5概率死亡
+			--减少当前血量50%
+			local value = args.EffectSource.Prop:GetProperty(bw.UnitPropType.NowHp) * 0.5
+			args.EffectSource.Prop:ReduceProperty(bw.UnitPropType.NowHp, bw.UnitPropCategory.Base, bw.UnitPropValueType.Fixed, value)
+			content = "死亡"
+		elseif rate < 70 then 
+			--10概率悲惨
+			--伤害减少 -50%	最终伤害加成 -50%
+			local buffID = tonumber(args.LastSkillData:TryGetCustomData("_beican_buff_id"))
+			args.EffectSource:AddBuff(buffID)
+			content = "悲惨"
+		end
+		bw.CombatSystem.DisplayFloatNum(content, args.EffectSource:GetUnitHeadObject().position)
+	end,
+	--恶魔buff。造成伤害时转为绝对伤害
+	passivity_2001_transform_damage_type = function(args)
+		args.EventSender.HarmType = CS.BoringWorld.HarmType.Real
+	end,
+	passivity_2001_mimang = function(args)
+		local rate = CS.UnityEngine.Random.Range(0, 100)
+		if rate < 50 then 
+			args.EventSender.Evade = true
+		end
+	end,
+	passivity_2001_fanzhuan = function(args)
+		local baseData = args.EventSender
+		local value = baseData.FinallyValue * 0.4
+		--创建一个伤害数据
+		local extraData = bw.Combat.HarmData.Create(baseData.Source, baseData.Target, value, bw.HarmType.Real, false, false, false, false)
+		extraData:SetOriginalData(value, false, false)
+		extraData:SetFinallyData(value, false, false)
+		baseData.Target:ReduceHp(extraData)
+		CS.GameFramework.ReferencePool.Release(extraData)
+	end,
+	jide_1 = function(args)
+	
+	end,
+	passivity_20102_fhsdem = function(args)
+		--添加一个buff
+		local buffID = tonumber(args.LastSkillData:TryGetCustomData("_fhsdem_buff_id"))
+		args.EffectSource:AddBuff(buffID)
+	end,
+	buff_20102_fhsdem = function(args)
+		--对物理和魔法伤害吸血20%
+		local harm = args.EventSender
+		--闪避时无法触发
+		if harm.Evade then
+			return
+		end
+		--真实伤害无法吸血
+		if harm.HarmType == bw.HarmType.Real then
+			return
+		end
+		local hp = harm.FinallyValue * 0.2
+		harm.Source:RestoreHp(hp)
+	end,
+	initiative_20105 = function(args)
+		--吸血鬼幻想
+		--对所有敌人造成3次伤害
+		local _count = 3	--专属后5次
+		--伤害间隔使用特效的数据
+		local effectConfig = args.LastSkillData.BaseData.SpecialEffect
+		local _intervalTime = effectConfig.Duration / _count
+		--选择所有敌人单位
+		local _allUnits = bw.GameEntry.Combat:GetAllUnitsByCamp(bw.UnitCamp.Hostility)
+		--播放特效
+		_allUnits:ForEach(function(unit)
+			bw.GameEntry.SpecialEffect:PlaySpecialEffect(effectConfig.EffectName, unit.Position, effectConfig.Duration)
+		end)
+		--计时器
+		local _actionSource = args.ActionSource
+		local _skillLv = args.LastSkillData.Lv
+		local _timer = bw.CombatSystem.CreateTimer(_count, _intervalTime, function(data)
+			--对所有单位造成伤害
+			_allUnits:ForEach(function(unit)
+				--基础伤害暂定为魔法攻击力*（150% + 30% * 技能等级）
+				local baseHarm = _actionSource.Prop:GetProperty(CS.BoringWorld.UnitPropType.MagicAtk) * (1.5 + 0.3 * _skillLv)
+				--生成的伤害数据
+				local harmData = CS.BoringWorld.Combat.HarmData.Create(_actionSource, unit, baseHarm, CS.BoringWorld.HarmType.Magic)
+				harmData:Execute()
+				--回收
+				CS.GameFramework.ReferencePool.Release(harmData)
+			end)
+		end, true)
+		_timer:SetEndCallback(args.Callback)
+		--为了和特效相匹配，将伤害挪后一点
+		local _offsetTimer = bw.CombatSystem.CreateTimer(1, _intervalTime * 0.5, null)
+		_offsetTimer:SetEndCallback(function()
+			_timer:Start()
+		end)
+		_offsetTimer:Start()
+	end,
+	initiative_20106 = function(args)
+		--碎心
+		--对单个敌人造成大量物理伤害
+		--伤害：物理攻击力 * （220% + 80% * 技能等级）
+		local _skillLv = args.LastSkillData.Lv
+		local baseHarm = args.ActionSource.Prop:GetProperty(bw.UnitPropType.PhysicAtk) * (2.2 + 0.8 * _skillLv)
+		local harmData = bw.Combat.HarmData.Create(args.ActionSource, args.ActionTargets[0], baseHarm, bw.HarmType.Physical)
+		harmData:Execute()
+		CS.GameFramework.ReferencePool.Release(harmData)
+		--计时器,控制特效结束时结束动作
+		local _intervalTime = args.LastSkillData.BaseData.SpecialEffect.Duration + 0.05
+		local _timer = bw.CombatSystem.CreateTimer(1, _intervalTime, null)
+		_timer:SetEndCallback(args.Callback)
+		_timer:Start()
+		--播放特效
+		local effectConfig = args.LastSkillData.BaseData.SpecialEffect
+		bw.GameEntry.SpecialEffect:PlaySpecialEffect(effectConfig.EffectName, args.ActionTargets[0].Position, effectConfig.Duration)
+	end
+}

@@ -1,0 +1,16 @@
+#	配置项名称	注解	具体值
+	Weapon_Sword	武器	武器-剑
+	Weapon_Knife	武器	武器-刀
+	Weapon_Arch	武器	武器-弓
+	Weapon_Hatchet	武器	武器-斧
+	Weapon_Wand	武器	武器-法杖
+	Helmet		头盔
+	Armor		铠甲
+	LegArmor		腿甲
+	Shoes		鞋子
+	Ring		戒指
+	Necklace		项链
+	HolyThings		圣物
+	Soul		魂器
+	Designation		称号
+	Exclusive		专属

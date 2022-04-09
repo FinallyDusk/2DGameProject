@@ -1,0 +1,56 @@
+[
+  {
+    "id": 100,
+    "界面名称": "游戏标题界面，此行为解释用，无视即可",
+    "FormAssetPath": "Assets/Game/GameResource/Prefabs/UI/UIForm/RootGroup/GameTitleForm.prefab",
+    "GroupName": "RootGroup"
+  },
+  {
+    "id": 101,
+    "界面名称": "游戏主界面，此行为解释用，无视即可",
+    "FormAssetPath": "Assets/Game/GameResource/Prefabs/UI/UIForm/RootGroup/MainInterfaceForm.prefab",
+    "GroupName": "RootGroup"
+  },
+  {
+    "id": 200,
+    "界面名称": "主菜单界面",
+    "FormAssetPath": "Assets/Game/GameResource/Prefabs/UI/UIForm/SecondGroup/GameMenuForm.prefab",
+    "GroupName": "SecondGroup"
+  },
+  {
+    "id": 201,
+    "界面名称": "战斗界面",
+    "FormAssetPath": "Assets/Game/GameResource/Prefabs/UI/UIForm/SecondGroup/CombatForm.prefab",
+    "GroupName": "SecondGroup"
+  },
+  {
+    "id": 301,
+    "界面名称": "角色详细信息界面",
+    "FormAssetPath": "Assets/Game/GameResource/Prefabs/UI/UIForm/ThirdlyGroup/RoleInfoForm.prefab",
+    "GroupName": "ThirdlyGroup"
+  },
+  {
+    "id": 302,
+    "界面名称": "角色技能界面",
+    "FormAssetPath": "Assets/Game/GameResource/Prefabs/UI/UIForm/ThirdlyGroup/RoleSkillForm.prefab",
+    "GroupName": "ThirdlyGroup"
+  },
+  {
+    "id": 303,
+    "界面名称": "角色装备界面",
+    "FormAssetPath": "Assets/Game/GameResource/Prefabs/UI/UIForm/ThirdlyGroup/RoleEquipForm.prefab",
+    "GroupName": "ThirdlyGroup"
+  },
+  {
+    "id": 304,
+    "界面名称": "背包界面",
+    "FormAssetPath": "Assets/Game/GameResource/Prefabs/UI/UIForm/ThirdlyGroup/BackpackForm.prefab",
+    "GroupName": "ThirdlyGroup"
+  },
+  {
+    "id": 400,
+    "界面名称": "加载进度界面",
+    "FormAssetPath": "Assets/Game/GameResource/Prefabs/UI/UIForm/PopMessageForm/LoadProgressForm.prefab",
+    "GroupName": "PopMessage"
+  }
+]

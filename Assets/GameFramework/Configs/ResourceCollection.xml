@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <ResourceCollection>
+    <Resources>
+      <Resource Name="Font/Alibaba-PuHuiTi-Medium" LoadType="0" Packed="False" />
+    </Resources>
+    <Assets>
+      <Asset Guid="533b511c7eecd324bb741844b73e3d4a" ResourceName="Font/Alibaba-PuHuiTi-Medium" />
+    </Assets>
+  </ResourceCollection>
+</UnityGameFramework>
